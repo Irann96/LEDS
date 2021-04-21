@@ -4,7 +4,7 @@ LED_3=/sys/class/leds/beaglebone:green:usr3
 
 function removeTrigger
 {
-	echo "none" >> "$LED_3/trigger"r
+	echo "none" >> "$LED_3/trigger"
 }
 
 
